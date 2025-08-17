@@ -4,4 +4,8 @@ class DirectorsController < ApplicationController
     
     render ({ :template => "director_templates/index" })
   end
+
+  def show
+    render ({ :template => "director_templates/show" })
+  end
 end
